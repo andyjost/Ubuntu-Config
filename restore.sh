@@ -10,3 +10,4 @@ sudo apt-get update
 sudo apt-get install dselect
 sudo dpkg --set-selections < ~/Ubuntu-Config/Package.list
 sudo dselect
+gconftool-2 --load ~/Ubuntu-Config/gnome-terminal-conf.xml

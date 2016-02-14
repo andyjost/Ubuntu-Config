@@ -5,3 +5,4 @@
 dpkg --get-selections > ~/Ubuntu-Config/Package.list
 sudo cp -R /etc/apt/sources.list* ~/Ubuntu-Config
 sudo apt-key exportall > ~/Ubuntu-Config/Repo.keys
+gconftool-2 --dump '/apps/gnome-terminal' > ~/Ubuntu-Config/gnome-terminal-conf.xml
